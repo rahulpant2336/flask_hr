@@ -1,0 +1,4 @@
+mysql_host: 'http://127.0.0.1:8080'
+mysql_user: 'root'
+mysql_password: 'rahul1234'
+mysql_db: 'hr_db'
