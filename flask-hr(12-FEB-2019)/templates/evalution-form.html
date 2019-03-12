@@ -1,0 +1,23 @@
+{% include 'header.html' %}
+
+{% block body %}
+
+<body class="evalution-page">
+
+<div>
+
+{% for row in students %}
+
+<p>Welcome, {{row.0}}</p>
+<p>{{row.1}}</p>
+<p>{{row.2}}</p>
+<p>{{row.4}}</p>
+
+{% endfor  %}
+
+</div>
+
+{% endblock %}
+
+    <!-- Bootstrap core JavaScript-->
+  {% include 'footer.html' %}
